@@ -1,0 +1,31 @@
+body {
+    background-image: url(imagenazul.jpeg);
+}
+
+h2 {
+    color: rgb(3, 3, 248, 0.78);
+}
+
+.tabla {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 2fr;
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.encabezado {
+    color: rgba(0, 0, 53, 0.78);    
+    background-color: rgba(240, 248, 255, 0.719);
+    font-size: 13px;
+}
+
+.datos {
+    color: rgba(255, 255, 255, 0.78);
+    background-color: rgba(111, 125, 167, 0.733);
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.78);
+}
